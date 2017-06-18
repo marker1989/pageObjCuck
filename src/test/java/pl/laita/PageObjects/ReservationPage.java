@@ -70,7 +70,7 @@ public class ReservationPage {
 			//return driver.findElement(By.name("servClass")).
 		}
 	*/
-	
+}
 				
 				
 
