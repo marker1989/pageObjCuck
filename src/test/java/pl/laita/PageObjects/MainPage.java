@@ -28,11 +28,18 @@ public class MainPage {
 	public WebElement link_support(WebDriver driver){
 		return driver.findElement(By.linkText(supportLinkText));
 	}
-		public WebElement link_register(WebDriver driver){
+		public WebElement link_register1(WebDriver driver){
 			return driver.findElement(By.linkText(registerLinkText));
 			
 		}
-		
+		public WebElement link_register(WebDriver driver){
+			return driver.findElement(By.linkText(registerLinkText));
+		}
+
+		public WebElement link_click(WebDriver driver, String arg1) {
+			// TODO Auto-generated method stub
+			return driver.findElement(By.linkText(arg1));
+		}
 		
 		
 		
